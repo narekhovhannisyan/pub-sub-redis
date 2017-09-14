@@ -1,0 +1,31 @@
+{
+  "name": "pub-sub-redis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narekhovhannisyan/pub-sub-redis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/narekhovhannisyan/pub-sub-redis/issues"
+  },
+  "homepage": "https://github.com/narekhovhannisyan/pub-sub-redis#readme",
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "^4.15.4",
+    "global-request-logger": "^0.1.1",
+    "morgan": "~1.8.1",
+    "on-headers": "^1.0.1",
+    "pug": "~2.0.0-beta11",
+    "redis": "^2.8.0",
+    "serve-favicon": "~2.4.2"
+  }
+}
