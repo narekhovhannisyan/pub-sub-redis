@@ -1,12 +1,12 @@
 const express = require('express')
 const router = express.Router()
-const publishRequest = require('../lib/pub-sub.js').publishRequests
+const publishRequest = require('../lib/pub')
+const responseTime = require('../lib/response-time')
 
-router.use(publishRequest)
+router.use(responseTime(publishRequest))
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-  // console.log(req.method)
   res.render('index', { title: 'Express' })
 })
 
