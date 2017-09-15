@@ -1,1 +1,2 @@
-# pub-sub-redis
+# request-publisher
+publishing http requests to redis
